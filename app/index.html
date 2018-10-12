@@ -16,10 +16,10 @@
                 <i class="header-logo__webdelo"></i>
                 <i class="header-logo__ansy"></i>
             </div>
-            <div class="col-5 header-basic_information" >
+            <div class="col-lg-5 col-12 header-basic_information">
                 <h1>Ковры ручной работы</h1>
                 <p>Современный сайт по продаже элитных ковров ручной работы. Основная цель было создать удобный, вызывающий доверие сайт.</p>
-                <button type="button" class="btn btn-dark">Как мы это сделали</button>
+                <button type="button" class="btn btn-dark header-basic_information-btn">Как мы это сделали</button>
             </div>
             <div id="trigger"></div>
             <div  class="tablet-images">
@@ -39,16 +39,16 @@
 <main class="main-page">
     <div class="container design-system-section">
         <div class="row">
-            <div class="col-5 design-system-section__text">
+            <div class="col-lg-5 col-12 design-system-section__text">
                 <h1>Дизайн система</h1>
                 <p>Для сайта был разработан оригинальная дизайн система, который не отвлекает на себя большое внимание, а концентрирует внимание пользователей на контенте.</p>
             </div>
-            <div class="col-3 design-system-section__fonts">
+            <div class="col-lg-3 col-12 design-system-section__fonts">
                 <p class="design-system-section__fonts-title">Fonts</p>
                 <span>Aa</span>
                 <p class="design-system-section__fonts-name">SF UI Display</p>
             </div>
-            <div class="col-4 design-system-section__colors">
+            <div class="col-lg-4 col-12 design-system-section__colors">
                 <p class="design-system-section__colors-title">Colors</p>
                 <table class="table">
                     <tbody>
@@ -101,23 +101,21 @@
     </div>
     <div class="container site-templates-section">
         <div class="row">
-            <div class="col-5">
+            <div id="trigger1"></div>
+            <div class="col-lg-5 col-12">
                 <h1>Шаблоны сайта</h1>
                 <p class="site-templates-section__text">Для сайта был разработан оригинальный фирменный стиль, который не отвлекает на себя большое внимание</p>
             </div>
         </div>
     </div>
     <div class="site-templates-section__img">
-        <!--<div class="site-templates-section__img-first-pattern"></div>-->
-        <!--<div class="site-templates-section__img-second-pattern"></div>-->
-        <!--<div class="site-templates-section__img-third-pattern"></div>-->
         <img class="site-templates-section__first-pattern img-fluid" src="img/first-pattern.png" alt="">
         <img class="site-templates-section__second-pattern img-fluid" src="img/second-pattern.png" alt="">
         <!--<img class="site-templates-section__third-pattern" src="img/third-pattern.png" alt="">-->
     </div>
     <div class="container frontend-solutions-section">
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <h1>Frontend решения</h1>
                 <p>Для сайта был разработан оригинальный фирменный стиль, который не отвлекает на себя большое внимание</p>
                 <div class="frontend-solutions-section__icon">
@@ -130,9 +128,10 @@
     </div>
     <div class="container adaptability-section">
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <h2>Адаптивный опыт</h2>
                 <p>Сайт полностью адаптивный. Причем структура контетента полностью меняется для удобства пользования на мобильных девайсах одной рукой</p>
+                <div id="trigger2"></div>
             </div>
         </div>
     </div>
@@ -140,14 +139,13 @@
     <div class="backend-container">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <h1>Back End решения</h1>
                     <p>В проекте для повышения производительности были использованы хранимые процедуры и функции.</p>
                 </div>
             </div>
         </div>
     </div>
-
 </main>
 
 
@@ -162,7 +160,10 @@
 <script src="js/janpaepke-ScrollMagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
 
-<script src="js/main.js"></script>
+<script src="js/header-animation.js"></script>
+<script src="js/website-templates-animation-top.js"></script>
+<script src="js/website-templates-animation-bottom.js"></script>
+<script src="js/mobile-phones-animation.js"></script>
 <!-- JS Inline -->
 <script>
     $('[data-toggle="popover"]').popover();
