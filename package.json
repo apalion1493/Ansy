@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.1",
-    "npm": "^6.1.0"
+    "npm": "^6.1.0",
+    "scrollmagic": "^2.0.6"
   }
 }
