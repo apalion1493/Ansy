@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-5 col-12 header-basic_information">
                 <h1>Ковры ручной работы</h1>
-                <p>Современный сайт по продаже элитных ковров ручной работы. Основная цель было создать удобный, вызывающий доверие сайт.</p>
+                <p class="adaptive-text">Современный сайт по продаже элитных ковров ручной работы. Основная цель было создать удобный, вызывающий доверие сайт.</p>
                 <button type="button" class="btn btn-dark header-basic_information-btn">Как мы это сделали</button>
             </div>
             <div id="trigger"></div>
@@ -39,16 +39,16 @@
 <main class="main-page">
     <div class="container design-system-section">
         <div class="row">
-            <div class="col-lg-5 col-12 design-system-section__text">
+            <div class="col-lg-5  col-12 design-system-section__text">
                 <h1>Дизайн система</h1>
-                <p>Для сайта был разработан оригинальная дизайн система, который не отвлекает на себя большое внимание, а концентрирует внимание пользователей на контенте.</p>
+                <p class="adaptive-text">Для сайта был разработан оригинальная дизайн система, который не отвлекает на себя большое внимание, а концентрирует внимание пользователей на контенте.</p>
             </div>
-            <div class="col-lg-3 col-12 design-system-section__fonts">
+            <div class="col-lg-3 col-md-5 col-12 design-system-section__fonts">
                 <p class="design-system-section__fonts-title">Fonts</p>
                 <span>Aa</span>
                 <p class="design-system-section__fonts-name">SF UI Display</p>
             </div>
-            <div class="col-lg-4 col-12 design-system-section__colors">
+            <div class="col-lg-4 col-md-7 col-12 design-system-section__colors">
                 <p class="design-system-section__colors-title">Colors</p>
                 <table class="table">
                     <tbody>
@@ -104,7 +104,7 @@
             <div id="trigger1"></div>
             <div class="col-lg-5 col-12">
                 <h1>Шаблоны сайта</h1>
-                <p class="site-templates-section__text">Для сайта был разработан оригинальный фирменный стиль, который не отвлекает на себя большое внимание</p>
+                <p class="site-templates-section__text adaptive-text">Для сайта был разработан оригинальный фирменный стиль, который не отвлекает на себя большое внимание</p>
             </div>
         </div>
     </div>
@@ -115,9 +115,9 @@
     </div>
     <div class="container frontend-solutions-section">
         <div class="row">
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-8 col-xl-6 col-12">
                 <h1>Frontend решения</h1>
-                <p>Для сайта был разработан оригинальный фирменный стиль, который не отвлекает на себя большое внимание</p>
+                <p class="adaptive-text">Для сайта был разработан оригинальный фирменный стиль, который не отвлекает на себя большое внимание</p>
                 <div class="frontend-solutions-section__icon">
                     <img src="img/sass.svg" alt="">
                     <img src="img/Gulp.js_Logo.svg" alt="">
@@ -128,10 +128,10 @@
     </div>
     <div class="container adaptability-section">
         <div class="row">
+            <div id="trigger2"></div>
             <div class="col-lg-6 col-12">
-                <h2>Адаптивный опыт</h2>
-                <p>Сайт полностью адаптивный. Причем структура контетента полностью меняется для удобства пользования на мобильных девайсах одной рукой</p>
-                <div id="trigger2"></div>
+                <h1>Адаптивный опыт</h1>
+                <p class="adaptive-text">Сайт полностью адаптивный. Причем структура контетента полностью меняется для удобства пользования на мобильных девайсах одной рукой</p>
             </div>
         </div>
     </div>
@@ -141,7 +141,7 @@
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <h1>Back End решения</h1>
-                    <p>В проекте для повышения производительности были использованы хранимые процедуры и функции.</p>
+                    <p class="adaptive-text">В проекте для повышения производительности были использованы хранимые процедуры и функции.</p>
                 </div>
             </div>
         </div>
@@ -160,14 +160,30 @@
 <script src="js/janpaepke-ScrollMagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
 
-<script src="js/header-animation.js"></script>
-<script src="js/website-templates-animation-top.js"></script>
-<script src="js/website-templates-animation-bottom.js"></script>
-<script src="js/mobile-phones-animation.js"></script>
+
+
 <!-- JS Inline -->
+
+<script>
+    if (window.innerWidth < 576) {
+        document.write("<script type=\"text/javascript\" src=\"js/animation-xs.js\"></"+"script>");
+    } else if (window.innerWidth >= 1200) {
+        document.write("<script type=\"text/javascript\" src=\"js/animation-xl.js\"></"+"script>");
+    } else if (window.innerWidth >= 992) {
+        document.write("<script type=\"text/javascript\" src=\"js/animation-lg.js\"></"+"script>");
+    } else if (window.innerWidth >= 768) {
+        document.write("<script type=\"text/javascript\" src=\"js/animation-md.js\"></"+"script>");
+    } else if (window.innerWidth >= 576) {
+        document.write("<script type=\"text/javascript\" src=\"js/animation-sm.js\"></"+"script>");
+    }
+
+</script>
+
 <script>
     $('[data-toggle="popover"]').popover();
     $('[data-toggle="tooltip"]').tooltip();
 </script>
+
+
 </body>
 </html>
