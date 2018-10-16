@@ -310,6 +310,10 @@
   .tablet-images img {
     width: 50%;
   }
+
+  .site-templates-section h1 {
+    white-space: normal;
+  }
 }
 
 @include media-breakpoint-down(md) {
