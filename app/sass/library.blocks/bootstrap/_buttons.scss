@@ -143,6 +143,11 @@ input[type="button"] {
 }
 
 .btn-dark {
-  background-color: #242424;
   border: 1px solid #ffffff;
+
+  &:hover,
+  &:active {
+    background: #ffffff;
+    color: #242424;
+  }
 }
