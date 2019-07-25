@@ -1,0 +1,56 @@
+
+.header-page {
+  background: url("../../img/header-bg.png") repeat center;
+  width: 100%;
+  height: auto;
+}
+
+
+.header-logo {
+  margin-top: 24px;
+  display: flex;
+
+  img {
+    background-size: 100% auto;
+    display: block;
+  }
+}
+
+.header-logo__webdelo {
+  background: url("../../img/logo-webdelo.svg") no-repeat center;
+  width: 194px;
+  height: 44px;
+}
+
+.header-logo__ansy {
+  background: url("../../img/logo-ansy.svg") no-repeat center;
+  width: 141px;
+  height: 46px;
+  margin-left: 28px;
+}
+
+.header-basic_information {
+  margin-top: 180px;
+  padding-bottom: 135px;
+
+  h1 {
+    color: #fff;
+  }
+
+  p {
+    color: #B4B4B4;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.header-page button {
+  width: 250px;
+  height: 60px;
+  margin-top: 120px;
+}
+
+.header-page__container {
+  position: relative;
+}

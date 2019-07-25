@@ -1,0 +1,82 @@
+.sample-pages {
+  padding-top: 150px;
+}
+
+.sample-pages__first-img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.sample-pages__text {
+  position: relative;
+}
+
+.sample-pages__first-text {
+  margin-top: 290px;
+}
+
+.sample-pages__first-text-arrow {
+  background: url("../img/first-arrow.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 100%;
+  max-width: 400px;
+  height: 43px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -335px;
+}
+
+.sample-pages__second-text-arrow {
+  background: url("../img/second-arrow.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 100%;
+  max-width: 43px;
+  height: 475px;
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: 24px;
+}
+
+.sample-pages__text {
+  span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555555;
+  }
+
+  p {
+    font-size: 18px;
+    color: #777777;
+    margin-top: 25px;
+  }
+}
+
+.sample-pages__first-text {
+  padding-left: 80px;
+
+}
+
+.sample-pages__second-text {
+  padding-left: 80px;
+  margin-top: 110px;
+}
+
+.sample-pages__third-text {
+  margin-top: 90px;
+  padding-left: 80px;
+}
+
+.sample-pages__third-text-arrow {
+  background: url("../img/third-arrow.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 100%;
+  max-width: 276px;
+  height: 43px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -210px;
+}

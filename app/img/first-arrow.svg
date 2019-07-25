@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="43" viewBox="0 0 408 43">
+  <g id="first-arrow" transform="translate(-403 -4602)">
+    <g id="first-arrow-2" data-name="first-arrow">
+      <path id="Line_4" data-name="Line 4" d="M367,1H1" transform="translate(403.5 4621)" fill="none" stroke="#c72839" stroke-linecap="square" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Oval" d="M33.638,43a21.5,21.5,0,0,0,0-43C21.84,0,0,21.5,0,21.5S21.84,43,33.638,43Z" transform="translate(756 4602)" fill="#c72839"/>
+    </g>
+    <text id="_01" data-name="01" transform="translate(779 4631)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">01</tspan></text>
+  </g>
+</svg>

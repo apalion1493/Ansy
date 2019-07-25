@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="610" height="338.5" viewBox="0 0 610 338.5">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Triangle" d="M3,0,6,6H0Z" transform="translate(6) rotate(90)" fill="#c72839"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Triangle_Copy" data-name="Triangle Copy" d="M3,0,6,6H0Z" transform="translate(17 6) rotate(-90)" fill="#c72839"/>
+    </clipPath>
+  </defs>
+  <g id="_12-column" data-name="12-column" transform="translate(0 -62)">
+    <g id="Group_1" data-name="Group 1">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M572,293V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0h38V293Zm-52,0V0H90V293ZM0,293V0H38V293Z" transform="translate(0 107)" fill="#c72839" opacity="0.1"/>
+      <path id="Combined_Shape-2" data-name="Combined Shape" d="M0,256V240H610v16Zm0-48V192H610v16Zm0-48V144H610v16Zm0-48V96H610v16ZM0,64V48H610V64ZM0,16V0H610V16Z" transform="translate(0 129)" fill="#c72839" opacity="0.05"/>
+    </g>
+    <g id="Group_4" data-name="Group 4">
+      <text id="_30px" data-name="30px" transform="translate(77 77)" fill="#555" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-14.875" y="0">30px</tspan></text>
+      <g id="Group_3" data-name="Group 3">
+        <g id="Group_2" data-name="Group 2">
+          <path id="Line_2" data-name="Line 2" d="M1,0V322" transform="translate(37 78)" fill="none" stroke="#c72839" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Line_2_Copy" data-name="Line 2 Copy" d="M1,0V322" transform="translate(50 78)" fill="none" stroke="#c72839" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Line_3" data-name="Line 3" d="M.5,1H73" transform="translate(29 82)" fill="none" stroke="#c72839" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="Group_7" data-name="Group 7" transform="translate(33 80)">
+          <path id="Triangle-2" data-name="Triangle" d="M3,0,6,6H0Z" transform="translate(6) rotate(90)" fill="#c72839"/>
+          <path id="Triangle_Copy-2" data-name="Triangle Copy" d="M3,0,6,6H0Z" transform="translate(17 6) rotate(-90)" fill="#c72839"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
