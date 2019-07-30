@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044b601e-336f-40dc-9bc5-02bf1494f85e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/sass/common.blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/common.blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/common.blocks/interface-features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/common.blocks/interface-features.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +35,10 @@
           <entry key="css" value="3" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="9" />
-          <entry key="js" value="58" />
+          <entry key="js" value="59" />
           <entry key="json" value="10" />
           <entry key="md" value="1" />
-          <entry key="scss" value="62" />
+          <entry key="scss" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -46,15 +46,15 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="9" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="58" />
+          <entry key="JavaScript" value="59" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="61" />
+          <entry key="SCSS" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="5471" />
+          <entry key="html" value="5483" />
           <entry key="js" value="815" />
           <entry key="json" value="3" />
           <entry key="scss" value="7184" />
@@ -62,7 +62,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5471" />
+          <entry key="HTML" value="5483" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="815" />
           <entry key="SCSS" value="7184" />
@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="534" lean-forward="true" selection-start-line="534" selection-end-line="534" />
+            <state relative-caret-position="334">
+              <caret line="916" column="25" selection-start-line="916" selection-start-column="25" selection-end-line="916" selection-end-column="25" />
               <folding>
                 <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -110,10 +110,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/interface-features.scss">
+        <entry file="file://$PROJECT_DIR$/app/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="286" column="16" lean-forward="true" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="16" />
+            <state relative-caret-position="475">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/write-to-us.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="150" column="34" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -129,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ansy-h2</find>
       <find>.grid-container</find>
       <find>design-system-section</find>
       <find>sample-pages__first-text-arrow</find>
@@ -159,6 +167,7 @@
       <find>6 колонок</find>
       <find>__logo</find>
       <find>M1077 176C1110.14 176 1137 149.137 1137 116C1137 82.8629 1110.14 56 1077 56C1043.86 56 1017 82.8629 1017 116C1017 149.137 1043.86 176 1077 176Z</find>
+      <find>main.js</find>
     </findStrings>
     <dirStrings>
       <dir>D:\project\Ansy\app\js\johnpolacek-superscrollorama</dir>
@@ -181,7 +190,6 @@
         <option value="$PROJECT_DIR$/app/js/mobile-phones-animation.js" />
         <option value="$PROJECT_DIR$/app/js/website-templates-animation-bottom.js" />
         <option value="$PROJECT_DIR$/app/js/website-templates-animation-top.js" />
-        <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/app/js/mobil-animation.js" />
         <option value="$PROJECT_DIR$/app/js/tablet-animation.js" />
         <option value="$PROJECT_DIR$/app/sass/library.blocks/bootstrap/_buttons.scss" />
@@ -200,7 +208,6 @@
         <option value="$PROJECT_DIR$/app/sass/common.blocks/modern-frontend.scss" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/other-jobs.scss" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/backEnd.scss" />
-        <option value="$PROJECT_DIR$/app/sass/common.blocks/write-to-us.scss" />
         <option value="$PROJECT_DIR$/app/js/animation-xl.js" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/sample-pages.scss" />
         <option value="$PROJECT_DIR$/app/js/animation-lg.js" />
@@ -208,9 +215,11 @@
         <option value="$PROJECT_DIR$/app/sass/common.blocks/design-system-fonts.scss" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/grid.scss" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/seo-features.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/header.scss" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/interface-features.scss" />
+        <option value="$PROJECT_DIR$/app/sass/common.blocks/write-to-us.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/js/main.js" />
       </list>
     </option>
   </component>
@@ -254,8 +263,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -384,12 +393,12 @@
       <workItem from="1564399801223" duration="240000" />
       <workItem from="1564400075596" duration="9121000" />
       <workItem from="1564467911954" duration="11494000" />
-      <workItem from="1564486254818" duration="593000" />
+      <workItem from="1564486254818" duration="1328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235539000" />
+    <option name="totallyTimeSpent" value="236274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,9 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bolgar-dom/new-js.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -578,20 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/modern-frontend.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/other-jobs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3306">
-          <caret line="174" column="28" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/animation-xl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -603,34 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3705">
-          <caret line="195" column="18" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/sample-pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/write-to-us.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5491">
-          <caret line="289" column="5" selection-start-line="289" selection-start-column="5" selection-end-line="289" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/seo-features.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -675,10 +639,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1661">
+          <caret line="195" column="18" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/modern-frontend.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/interface-features.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="286" column="16" lean-forward="true" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/other-jobs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="174" column="28" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/sample-pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/seo-features.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/write-to-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="150" column="34" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="534" lean-forward="true" selection-start-line="534" selection-end-line="534" />
+        <state relative-caret-position="334">
+          <caret line="916" column="25" selection-start-line="916" selection-start-column="25" selection-end-line="916" selection-end-column="25" />
           <folding>
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -703,10 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/interface-features.scss">
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="286" column="16" lean-forward="true" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="16" />
+        <state relative-caret-position="475">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
