@@ -8,7 +8,7 @@
 
 
 #write-ToUs {
-    background: url("../../img/header-bg.png") repeat center;
+    background: url("../img/header-bg.png") repeat center;
     background-size: 8px 8px;
     color: #ffffff;
     display: flex;
@@ -19,7 +19,6 @@
 }
 
 #write-ToUs .container {
-    /*padding-top: 100px;*/
     margin-top: auto;
 }
 
@@ -52,11 +51,6 @@ textarea {
     margin-bottom: 40px;
 }
 
-/*.write-ToUs__form {*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-/*}*/
-
 .write-ToUs__form-control:focus {
     box-shadow: none;
     border-bottom: 1px solid #BCBCBC;
@@ -70,21 +64,21 @@ textarea {
 .write-ToUs__form-control::placeholder { color: #D9D9D9; }
 
 .write-ToUs__form-control-name {
-    background-image: url("../../img/sections/write-ToUs/male.svg");
+    background-image: url("../img/sections/write-ToUs/male.svg");
     background-repeat: no-repeat;
     background-position: 14px 2px;
     background-size: 18px 18px;
 }
 
 .write-ToUs__form-control-phone {
-    background-image: url("../../img/sections/write-ToUs/phone-receiver.svg");
+    background-image: url("../img/sections/write-ToUs/phone-receiver.svg");
     background-repeat: no-repeat;
     background-position: 14px 2px;
     background-size: 18px 18px;
 }
 
 .write-ToUs__form-control-comment {
-    background-image: url("../../img/sections/write-ToUs/pen.svg");
+    background-image: url("../img/sections/write-ToUs/pen.svg");
     background-repeat: no-repeat;
     background-position: 14px 2px;
     background-size: 18px 18px;
@@ -155,22 +149,22 @@ textarea {
 }
 
 .write-ToUs__block-social-linkedin {
-    background: url("../../img/sections/write-ToUs/linkedin.svg") no-repeat center;
+    background: url("../img/sections/write-ToUs/linkedin.svg") no-repeat center;
     background-size: 100% auto;
 }
 
 .write-ToUs__block-social-github {
-    background: url("../../img/sections/write-ToUs/github.svg") no-repeat center;
+    background: url("../img/sections/write-ToUs/github.svg") no-repeat center;
     background-size: 100% auto;
 }
 
 .write-ToUs__block-social-facebook {
-    background: url("../../img/sections/write-ToUs/facebook.svg") no-repeat center;
+    background: url("../img/sections/write-ToUs/facebook.svg") no-repeat center;
     background-size: 100% auto;
 }
 
 .write-ToUs__block-social-instagram {
-    background: url("../../img/sections/write-ToUs/instagram.svg") no-repeat center;
+    background: url("../img/sections/write-ToUs/instagram.svg") no-repeat center;
     background-size: 100% auto;
 }
 
@@ -181,7 +175,6 @@ textarea {
     border-radius: 20px;
     padding: 9px 27px;
     color: #ffffff;
-    margin-top: auto;
     margin-bottom: 55px;
     position: relative;
     z-index: 10;
@@ -196,19 +189,6 @@ textarea {
     padding-left: 40px;
     padding-right: 40px;
 }
-
-//.blue-btn-form:before {
-//    content: '';
-//    position: absolute;
-//    top: 0;
-//    background: url(../../img/sections/write-ToUs/Oval.png) no-repeat center;
-//    left: -42%;
-//    background-size: 100% auto;
-//    width: 412px;
-//    height: 276px;
-//}
-
-
 
 ::selection {
     background-color: salmon;
