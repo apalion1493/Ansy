@@ -97,3 +97,10 @@ td.design-system-fonts__title {
     font-family: 'Proxima Nova', sans-serif;
   }
 }
+
+@media (max-width: 1199.98px) {
+  .design-system-fonts__sample-block p {
+    text-align: center;
+    line-height: 10px;
+  }
+}

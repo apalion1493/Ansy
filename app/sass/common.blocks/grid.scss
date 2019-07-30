@@ -110,3 +110,20 @@
   font-size: 18px;
   color: #777777;
 }
+
+@media (max-width: 1199.98px) {
+  .grid-container {
+    flex-direction: column;
+    max-width: 695px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-container_width {
+    width: 100%;
+  }
+
+  .grid-container__column {
+    margin-top: 40px;
+  }
+}

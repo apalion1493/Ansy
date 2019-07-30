@@ -28,7 +28,8 @@ var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 300})
 //phone
 
 var tween2 = TweenMax.to(".adaptability-section__phone-img", 0.1,
-    {right: 0},
+    // {right: 0},
+    {opacity: 1},
     {yoyo: true, ease: Circ.easeInOut});
 
 var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 200})
@@ -38,9 +39,9 @@ var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 200})
 
 //header
 
-var tween3 = TweenMax.to(".tablet-images__animate", 0.5, {rotationY: 45});
+var tween3 = TweenMax.to(".tablet-images__animate", 0.5, {top: '-300px'});
 
-var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "150%", offset: 250})
+var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%", offset: 250})
     .setTween(tween3)
     // .addIndicators() // add indicators (requires plugin)
     .addTo(controller);

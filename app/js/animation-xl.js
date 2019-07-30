@@ -33,7 +33,7 @@ var tween2 = TweenMax.to(".adaptability-section__phone-img", 0.1,
     {yoyo: true, ease: Circ.easeInOut});
 
 var scene2 = new ScrollMagic.Scene({
-    triggerElement: "#trigger2", duration: 400
+    triggerElement: "#trigger2", duration: 500
 })
     .setTween(tween2)
     .addIndicators() // add indicators (requires plugin)

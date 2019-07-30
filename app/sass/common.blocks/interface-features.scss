@@ -1,5 +1,6 @@
 .interface-features {
   background: url(../img/header-bg.png) repeat center;
+  background-size: 8px 8px;
   width: 100%;
   height: auto;
   padding-top: 45px;
@@ -264,12 +265,6 @@
 
   &:after {
     content: '';
-    //right: 12%;
-    //top: 20px;
-    //position: absolute;
-    //width: 1px;
-    //height: 81.3%;
-    //background: #D8D8D8;
     background: url("../../img/line-interface.svg") no-repeat center;
     background-size: 100% auto;
     width: 36px;
@@ -291,5 +286,11 @@
     width: 36px;
     height: 1px;
     background: #D8D8D8;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .interface-features__inner ul {
+    max-width: 216px;
   }
 }
