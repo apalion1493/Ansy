@@ -289,6 +289,22 @@
   }
 }
 
+.interface-features__content {
+  position: relative;
+}
+
+.interface-features__content-animate {
+  position: absolute;
+  right: -70px;
+  bottom: -125px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .interface-features__text {
+    margin-bottom: 85px;
+  }
+}
+
 @media (max-width: 1199.98px) {
   .interface-features__inner ul {
     max-width: 216px;

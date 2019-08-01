@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="libs/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -282,16 +283,19 @@
                     <p>Первые два экрана это навигация каталога товаров. Для лучшей конверсии мы разделил каталог на возможные сценарии поиска ковров, по стилю, материалу и производителю. </p>
                 </div>
                 <div id="trigger2"></div>
-                <div class="title-adaptive-design">
-                    <span class="ansy-h2">05. Адаптивный дизайн</span>
-                    <p>Сайт полностью адаптивный. Причем структура контетента полностью меняется для удобства пользования на мобильных девайсах одной рукой</p>
-                </div>
             </div>
         </div>
     </section>
 
     <section class="container">
         <div class="row">
+            <div class="col-xl-6"></div>
+            <div class="col-xl-6">
+                <div class="title-adaptive-design">
+                    <span class="ansy-h2">05. Адаптивный дизайн</span>
+                    <p>Сайт полностью адаптивный. Причем структура контетента полностью меняется для удобства пользования на мобильных девайсах одной рукой</p>
+                </div>
+            </div>
             <div class="col-12">
                 <div class="adaptability-section__phone-img"></div>
             </div>
@@ -302,6 +306,7 @@
         <div class="container">
             <h2 class="ansy-h2 ansy-h2_white text-center">06. Особенности интерфейса</h2>
             <div class="row">
+                <div id="trigger4"></div>
                 <div class="col-6">
                     <div class="interface-features__text">
                         <span>Уникальные иконки</span>
@@ -366,6 +371,7 @@
                     </div>
                     <div class="interface-features__content">
                         <img src="img/interface-features__img.png" alt="">
+                        <img class="interface-features__content-animate" src="img/interface-features__img-animate.png" alt="">
                     </div>
                 </div>
             </div>
@@ -426,7 +432,7 @@
                             <style type="text/css">
                                 svg {
                                     --animation-delay: 0.6;
-                                    --animation-duration: 6;
+                                    --animation-duration: 4;
                                 }
 
                                 @supports (animation-duration: calc(1 * 1s)) {
@@ -463,25 +469,25 @@
                                     .gulp__background,
                                     .gulp-logo__pot,
                                     .gulp-logo__tubule {
-                                        animation-delay: calc(var(--animation-delay) * 2s);
+                                        animation-delay: calc(var(--animation-delay) * 0s);
                                     }
 
                                     .gulp-to-html__connections__line,
                                     .gulp-to-sass__connections__line,
                                     .gulp-to-js__connections__line {
-                                        animation-delay: calc(var(--animation-delay) * 2.5s);
+                                        animation-delay: calc(var(--animation-delay) * 0.5s);
                                     }
 
                                     .sass-raw-logo__background,
                                     .sass-raw-logo {
-                                        animation-delay: calc(var(--animation-delay) * 3s);
+                                        animation-delay: calc(var(--animation-delay) * 1s);
                                     }
 
                                     .js-raw-logo__background__1,
                                     .js-raw-logo__background__2,
                                     .js-raw-logo,
                                     .js-raw-logo__text {
-                                        animation-delay: calc(var(--animation-delay) * 3.5s);
+                                        animation-delay: calc(var(--animation-delay) * 1.5s);
                                     }
 
                                     .html-raw-logo__background,
@@ -491,31 +497,31 @@
                                     .html-raw-logo__rightLogo,
                                     .html-raw-logo__whiteBg,
                                     .html-raw-logo__text {
-                                        animation-delay: calc(var(--animation-delay) * 4s);
+                                        animation-delay: calc(var(--animation-delay) * 2s);
                                     }
 
                                     .sass-css__connections__line {
-                                        animation-delay: calc(var(--animation-delay) * 6s);
+                                        animation-delay: calc(var(--animation-delay) * 3s);
                                     }
 
                                     .js-js__connections__line {
-                                        animation-delay: calc(var(--animation-delay) * 7s);
+                                        animation-delay: calc(var(--animation-delay) * 4s);
                                     }
 
                                     .html-html__connections__line {
-                                        animation-delay: calc(var(--animation-delay) * 8s);
+                                        animation-delay: calc(var(--animation-delay) * 5s);
                                     }
 
                                     .css-min__background,
                                     .css-min-logo {
-                                        animation-delay: calc(var(--animation-delay) * 6.5s);
+                                        animation-delay: calc(var(--animation-delay) * 3.5s);
                                     }
 
                                     .js-min-logo__background,
                                     .js-min-logo,
                                     .js-min-logo__text,
                                     .js-min-logo__bigText {
-                                        animation-delay: calc(var(--animation-delay) * 7.5s);
+                                        animation-delay: calc(var(--animation-delay) * 4.5s);
                                     }
 
 
@@ -526,7 +532,7 @@
                                     .html-min-logo__logo2,
                                     .html-min-logo__logo3,
                                     .html-min-logo__logo4{
-                                        animation-delay: calc(var(--animation-delay) * 8.5s);
+                                        animation-delay: calc(var(--animation-delay) * 5.5s);
                                     }
 
 
@@ -689,19 +695,19 @@
 
                 <div class="col-12">
                     <div class="modern-frontend__container">
-                        <div class="modern-frontend__block modern-frontend__block_redBorder">
+                        <div class="modern-frontend__block modern-frontend__block_redBorder wow jackInTheBox delay-2">
                             <i class="modern-frontend__block-icon modern-frontend__icon-document1"></i>
                             <span>RAW code</span>
                             <p class="pb-3">1500 Кб</p>
                         </div>
                         <span class="modern-frontend__arrow"></span>
-                        <div class="modern-frontend__block modern-frontend__block_greenBorder">
+                        <div class="modern-frontend__block modern-frontend__block_greenBorder  wow jackInTheBox delay-3">
                             <i class="modern-frontend__block-icon modern-frontend__icon-document2"></i>
                             <span>MIN code</span>
                             <p class="pb-3">500 Кб</p>
                         </div>
                         <span class="modern-frontend__arrow"></span>
-                        <div class="modern-frontend__block modern-frontend__block_greenBorder">
+                        <div class="modern-frontend__block modern-frontend__block_greenBorder  wow jackInTheBox delay-4">
                             <i class="modern-frontend__block-icon modern-frontend__icon-speed"></i>
                             <p>3x</p>
                             <span class="pb-3">быстрее</span>

@@ -107,6 +107,13 @@
   padding-right: 10px !important;
 }
 
+@media (max-width: 1199.98px) {
+  .other-jobs__padding {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+}
+
 @media (max-width: 991.98px) {
   .other-jobs__container-img {
     height: 300px;

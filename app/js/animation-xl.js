@@ -14,10 +14,23 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
 
 //second-pattern
 
+var tween1;
 
-var tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
-    {right: 0, top: 225},
-    {right: -1800, yoyo: true, ease: Circ.easeInOut});
+if (window.innerWidth > 1200 && window.innerWidth < 1600) {
+    tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
+        {right: 0, top: 225},
+        {right: -1800, yoyo: true, ease: Circ.easeInOut});
+
+} else if(window.innerWidth >= 1600 && window.innerWidth < 1875) {
+    tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
+        {right: 0, top: 280},
+        {right: -1800, yoyo: true, ease: Circ.easeInOut});
+
+} else if(window.innerWidth >= 1876) {
+    tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
+        {right: 0, top: 320},
+        {right: -1800, yoyo: true, ease: Circ.easeInOut});
+}
 
 var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
     .setTween(tween1)
@@ -47,5 +60,16 @@ var tween3 = TweenMax.to(".tablet-images__animate", 0.5,
 
 var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "150%", offset: 420})
     .setTween(tween3)
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+//
+
+var tween4 = TweenMax.to(".interface-features__content-animate", 0.5,
+    {bottom: 0}
+    );
+
+var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: "70%", offset: 100})
+    .setTween(tween4)
     .addIndicators() // add indicators (requires plugin)
     .addTo(controller);

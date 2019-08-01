@@ -32,9 +32,11 @@ var tween2 = TweenMax.to(".adaptability-section__phone-img", 0.1,
     {opacity: 1},
     {yoyo: true, ease: Circ.easeInOut});
 
-var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 200})
+var scene2 = new ScrollMagic.Scene({
+    triggerElement: "#trigger2", duration: 500
+})
     .setTween(tween2)
-    // .addIndicators() // add indicators (requires plugin)
+    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 //header
@@ -44,4 +46,15 @@ var tween3 = TweenMax.to(".tablet-images__animate", 0.5, {top: '-300px'});
 var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%", offset: 250})
     .setTween(tween3)
     // .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+//
+
+var tween4 = TweenMax.to(".interface-features__content-animate", 0.5,
+    {bottom: 0}
+);
+
+var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: "70%", offset: 100})
+    .setTween(tween4)
+    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);

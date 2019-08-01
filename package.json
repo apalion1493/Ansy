@@ -26,6 +26,7 @@
     "natives": "^1.1.6"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
     "npm": "^6.10.0",
     "scrollmagic": "^2.0.7",
