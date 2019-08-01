@@ -127,3 +127,11 @@
     margin-top: 40px;
   }
 }
+
+@media (max-width: 991.98px) {
+  .grid-section__text-block {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

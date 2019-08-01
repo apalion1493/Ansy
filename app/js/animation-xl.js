@@ -14,23 +14,23 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
 
 //second-pattern
 
-var tween1;
+// if (window.innerWidth > 1200 && window.innerWidth < 1600) {
+//
+//
+// } else if(window.innerWidth >= 1600 && window.innerWidth < 1875) {
+//     tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
+//         {right: 0, top: 280},
+//         {right: -1800, yoyo: true, ease: Circ.easeInOut});
+//
+// } else if(window.innerWidth >= 1876) {
+//     tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
+//         {right: 0, top: 320},
+//         {right: -1800, yoyo: true, ease: Circ.easeInOut});
+// }
 
-if (window.innerWidth > 1200 && window.innerWidth < 1600) {
-    tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
-        {right: 0, top: 225},
-        {right: -1800, yoyo: true, ease: Circ.easeInOut});
-
-} else if(window.innerWidth >= 1600 && window.innerWidth < 1875) {
-    tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
-        {right: 0, top: 280},
-        {right: -1800, yoyo: true, ease: Circ.easeInOut});
-
-} else if(window.innerWidth >= 1876) {
-    tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
-        {right: 0, top: 320},
-        {right: -1800, yoyo: true, ease: Circ.easeInOut});
-}
+var tween1 = TweenMax.to(".site-templates-section__second-pattern", 1,
+    {right: 0, top: 225},
+    {right: -1800, yoyo: true, ease: Circ.easeInOut});
 
 var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
     .setTween(tween1)

@@ -61,3 +61,22 @@
   font-weight: bold;
   margin-left: 50px;
 }
+
+@media (max-width: 991.98px) {
+  .design-system-section {
+    padding-top: 80px;
+  }
+
+  .design-system-section__text span.display-1 {
+    font-size: 50px;
+    line-height: normal;
+  }
+
+  .design-system-section__text .design-system__caption {
+    max-width: 100%;
+  }
+
+  .design-system-section__block {
+    margin-top: 60px;
+  }
+}
