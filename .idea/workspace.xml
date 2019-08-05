@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="044b601e-336f-40dc-9bc5-02bf1494f85e" name="Default Changelist" comment="" />
+    <list default="true" id="044b601e-336f-40dc-9bc5-02bf1494f85e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/common.blocks/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/common.blocks/fonts.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
           <entry key="js" value="79" />
           <entry key="json" value="10" />
           <entry key="md" value="1" />
-          <entry key="scss" value="115" />
+          <entry key="scss" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -47,7 +51,7 @@
           <entry key="JavaScript" value="79" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="114" />
+          <entry key="SCSS" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -55,7 +59,7 @@
           <entry key="html" value="5837" />
           <entry key="js" value="1084" />
           <entry key="json" value="3" />
-          <entry key="scss" value="8992" />
+          <entry key="scss" value="8996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -63,7 +67,7 @@
           <entry key="HTML" value="5837" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="1084" />
-          <entry key="SCSS" value="8992" />
+          <entry key="SCSS" value="8996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class" />
@@ -80,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state relative-caret-position="30">
               <caret line="838" column="45" selection-start-line="838" selection-start-column="45" selection-end-line="838" selection-end-column="45" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -109,10 +113,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/fonts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/animation-xl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="127" column="58" lean-forward="true" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+            <state relative-caret-position="1075">
+              <caret line="127" column="58" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -192,7 +205,6 @@
         <option value="$PROJECT_DIR$/app/sass/library.blocks/bootstrap/utilities/_Nova.scss" />
         <option value="$PROJECT_DIR$/app/sass/library.blocks/bootstrap/utilities/_fonts.scss" />
         <option value="$PROJECT_DIR$/app/sass/library.blocks/bootstrap/_fonts.scss" />
-        <option value="$PROJECT_DIR$/app/sass/common.blocks/fonts.scss" />
         <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/app/sass/library.blocks/bootstrap/_images.scss" />
         <option value="$PROJECT_DIR$/app/js/animation-md.js" />
@@ -212,6 +224,7 @@
         <option value="$PROJECT_DIR$/app/sass/common.blocks/sample-pages.scss" />
         <option value="$PROJECT_DIR$/app/sass/common.blocks/write-to-us.scss" />
         <option value="$PROJECT_DIR$/app/js/animation-xl.js" />
+        <option value="$PROJECT_DIR$/app/sass/common.blocks/fonts.scss" />
       </list>
     </option>
   </component>
@@ -253,7 +266,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -395,12 +408,12 @@
       <workItem from="1564656775696" duration="4647000" />
       <workItem from="1564662083195" duration="3982000" />
       <workItem from="1564727288031" duration="10906000" />
-      <workItem from="1564986267740" duration="15513000" />
+      <workItem from="1564986267740" duration="17082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284532000" />
+    <option name="totallyTimeSpent" value="286101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,7 +425,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -618,9 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1243">
@@ -691,9 +701,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/animation-xl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="127" column="58" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
+        <state relative-caret-position="30">
           <caret line="838" column="45" selection-start-line="838" selection-start-column="45" selection-end-line="838" selection-end-column="45" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -720,10 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/animation-xl.js">
+    <entry file="file://$PROJECT_DIR$/app/sass/common.blocks/fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="127" column="58" lean-forward="true" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+        <state relative-caret-position="334">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
