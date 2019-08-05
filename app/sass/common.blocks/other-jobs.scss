@@ -128,18 +128,19 @@
   }
 
   .other-jobs__container-ansy-img img {
-    max-width: 120%;
+    max-width: 70%;
     bottom: -30px;
+    margin: auto;
+    left: 0;
+    right: 0;
   }
 }
 
 @media (max-width: 767.98px) {
   .other-jobs__container-ansy-img img {
     position: relative;
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
+    max-width: 90%;
+    bottom: 0;
   }
 
   #other-jobs {
@@ -150,6 +151,8 @@
 @media (max-width: 575.98px) {
   .other-jobs__container-stooler-img img {
     margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .other-jobs__container-ansy-img img {

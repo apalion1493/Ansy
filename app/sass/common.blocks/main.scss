@@ -1,5 +1,9 @@
 @import "../library.blocks/bootstrap/bootstrap-reboot";
 
+body {
+  overflow-x: hidden;
+}
+
 @mixin text-under-title {
   margin-top: 30px;
   color: #777777;
@@ -193,6 +197,7 @@ td.fz-14 {
 }
 
 @include media-breakpoint-down(lg) {
+
   .title-adaptive-design {
     top: 50px;
     width: 100%;
@@ -223,10 +228,6 @@ td.fz-14 {
     font-size: 52px;
   }
 
-  .tablet-images {
-    top: 100px;
-  }
-
   .adaptability-section__phone-img {
     height: 380px;
   }
@@ -237,10 +238,18 @@ td.fz-14 {
 }
 
 @include media-breakpoint-down(md) {
+
+  .tablet-images {
+    top: 335px;
+  }
+
+  .site-templates-section__img {
+    display: none;
+  }
+
   .header-basic_information {
-    background: rgba(85, 85, 85, 0.9);
     z-index: 999;
-    margin-top: 40%;
+    margin-top: 40px;
     margin-bottom: 40%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -259,16 +268,25 @@ td.fz-14 {
   }
 
   .adaptability-section__phone-img {
-    height: 470px;
+    height: 400px;
+    margin-top: 170px;
+    margin-bottom: 0;
   }
 }
 
 @include media-breakpoint-down(sm) {
 
+  .title-adaptive-design {
+    padding-left: 0;
+    max-width: 93%;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
   .header-basic_information {
-    background: rgba(85, 85, 85, 0.9);
     z-index: 999;
-    margin-top: 40%;
+    margin-top: 40px;
     margin-bottom: 40%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -279,8 +297,8 @@ td.fz-14 {
   }
 
  .adaptive-text {
-    font-size: 18px !important;
-    line-height: 30px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
   }
 
   .design-system-section__colors table {
@@ -306,12 +324,8 @@ td.fz-14 {
     height: 300px;
   }
 
-  .site-templates-section__img {
-    //height: 400px;
-  }
-
   .site-templates-section__second-pattern {
-    top: -260px;
+    top: -660px;
     right: 1800px;
     width: 100%;
     z-index: -1;
@@ -320,12 +334,48 @@ td.fz-14 {
   .tablet-images img {
     width: 80%;
   }
+
+  .ansy-h2 {
+    font-size: 24px;
+  }
+
+  .sample-pages__text span {
+    font-size: 22px;
+  }
+
+  .color-section__title {
+    font-size: 20px;
+  }
+
+  .design-system-section__text span.display-1 {
+    font-size: 32px;
+  }
+
+  .grid-section__text {
+    font-size: 16px;
+  }
+
+  .title-adaptive-design p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @include media-breakpoint-only(xs) {
 
+  .tablet-images__first {
+    margin: auto;
+    left: 0;
+    bottom: -130px;
+  }
+
+  .header-basic_information {
+    margin-bottom: 50%;
+  }
+
   .header-page {
     height: auto;
+    overflow: hidden;
   }
 
   .header-logo__ansy,
@@ -334,10 +384,7 @@ td.fz-14 {
   }
 
   .header-page .header-basic_information-btn {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: none;
   }
 
   h1 {
@@ -346,5 +393,9 @@ td.fz-14 {
 
   .tablet-images img {
     width: 90%;
+  }
+
+  .tablet-images__second {
+    display: none;
   }
 }

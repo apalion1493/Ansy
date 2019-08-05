@@ -1,7 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="43" height="455.502" viewBox="0 0 43 455.502">
-  <g id="second-arrow" transform="translate(-765 -4897)">
-    <path id="Line_4_Copy" data-name="Line 4 Copy" d="M414.318,1H.816" transform="translate(785.5 5351.818) rotate(-90)" fill="none" stroke="#c72839" stroke-linecap="square" stroke-miterlimit="10" stroke-width="3"/>
-    <path id="Oval_Copy" data-name="Oval Copy" d="M33.638,43a21.5,21.5,0,0,0,0-43C21.84,0,0,21.5,0,21.5S21.84,43,33.638,43Z" transform="translate(765 4952) rotate(-90)" fill="#c72839"/>
-    <text id="_02" data-name="02" transform="translate(777 4926)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">02</tspan></text>
-  </g>
+<svg width="43" height="362" viewBox="0 0 43 362" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22 40.6859L22 359.88" stroke="#C72839" stroke-width="3" stroke-linecap="square"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M43 21.362C43 9.56411 33.3741 0 21.5 0C9.62588 0 0 9.56411 0 21.362C0 33.16 21.5 55 21.5 55C21.5 55 43 33.16 43 21.362Z" fill="#C72839"/>
 </svg>

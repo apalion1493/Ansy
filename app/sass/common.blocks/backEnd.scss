@@ -64,7 +64,7 @@
   span {
     max-width: 190px;
     width: 100%;
-    margin-right: 90px;
+    margin-right: 3rem;
   }
 
   p {
@@ -85,4 +85,44 @@
   .backEnd-list {
     padding-left: 20px;
   }
+
+  .backEnd__subtitle {
+    margin-bottom: 40px;
+  }
+
+  .backEnd_fourth-row {
+    & > .col-lg-7 {
+      order: 2;
+    }
+
+    & > .col-lg-5 {
+      order: 1;
+    }
+  }
 }
+
+@media (max-width: 767.98px) {
+  .backEnd-list__title {
+    font-size: 20px;
+  }
+
+  .backEnd__subtitle,
+  .backEnd__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .backEnd-list__title {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .backEnd_second-row span {
+    margin-right: 0;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+}
+

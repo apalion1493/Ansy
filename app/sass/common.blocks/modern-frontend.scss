@@ -96,3 +96,40 @@
   justify-content: center;
   margin-top: 100px;
 }
+
+@media (max-width: 991.98px) {
+  .modern-frontend__text {
+    max-width: 100%;
+  }
+
+  .modern-frontend__scheme {
+    margin-top: 30px;
+  }
+
+  .modern-frontend__container {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .modern-frontend__container {
+    flex-direction: column;
+  }
+
+  .modern-frontend__block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .modern-frontend__arrow {
+    transform: rotate(90deg);
+  }
+
+  .modern-frontend__scheme {
+    display: none;
+  }
+
+  .modern-frontend__text {
+    font-size: 16px;
+  }
+}

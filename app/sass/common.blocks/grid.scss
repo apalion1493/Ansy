@@ -135,3 +135,17 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 767.98px) {
+  .grid-section__text {
+    font-size: 16px;
+  }
+
+  .grid-block span {
+    font-size: 18px;
+  }
+
+  .grid-block-two {
+    margin-left: 20px;
+  }
+}

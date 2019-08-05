@@ -55,3 +55,9 @@
 .header-page__container {
   position: relative;
 }
+
+@media (max-width: 767.98px) {
+  .header-basic_information p {
+    font-size: 16px;
+  }
+}

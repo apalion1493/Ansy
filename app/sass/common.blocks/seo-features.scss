@@ -66,4 +66,39 @@
     padding-left: 30px;
     padding-top: 60px;
   }
+
+  .seo-features__cunning p,
+  .seo-features__microanimations p {
+    max-width: 100%;
+  }
+
+  .seo-features__microanimations p {
+    margin-bottom: 30px;
+  }
+
+  .seo-features__cunning {
+    padding-top: 10px;
+  }
+
+  .seo-features .ansy-h2 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .seo-features__cunning span,
+  .seo-features__microanimations span {
+    font-size: 22px;
+  }
+
+  .seo-features__cunning p,
+  .seo-features__microanimations p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .seo-features__cunning,
+  .seo-features__microanimations {
+    padding-left: 0;
+  }
 }
