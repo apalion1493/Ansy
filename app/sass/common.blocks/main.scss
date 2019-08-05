@@ -66,14 +66,12 @@ body {
   font-size: 18px;
   line-height: 32px;
   color: #777777;
-  //@include text-under-title;
   margin-top: 20px;
 }
 
 .site-templates-section__img {
   position: relative;
   width: 100%;
-  //height: 1040px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +95,6 @@ body {
   width: 100%;
   z-index: -1;
 }
-
 
 .site-templates-section h1 {
   white-space: nowrap;
@@ -212,10 +209,6 @@ td.fz-14 {
     margin-top: 60px;
   }
 
-  .site-templates-section__img {
-    //height: 920px;
-  }
-
   .tablet-images img {
     width: 70%;
   }
@@ -261,10 +254,6 @@ td.fz-14 {
 
   .design-system-section__text h1 {
     word-spacing: normal;
-  }
-
-  .site-templates-section__img {
-    //height: 800px;
   }
 
   .adaptability-section__phone-img {

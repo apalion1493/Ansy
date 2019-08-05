@@ -30,7 +30,7 @@ if (window.innerWidth > 1200) {
 
 var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
     .setTween(tween)
-    .addIndicators() // add indicators (requires plugin)
+    //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 
@@ -65,7 +65,7 @@ if (window.innerWidth > 1200) {
 
 var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
     .setTween(tween1)
-    .addIndicators() // add indicators (requires plugin)
+    //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 
@@ -81,7 +81,7 @@ var scene2 = new ScrollMagic.Scene({
     triggerElement: "#trigger2", duration: 300
 })
     .setTween(tween2)
-    .addIndicators() // add indicators (requires plugin)
+    //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 
@@ -107,7 +107,7 @@ if (window.innerWidth > 1200) {
 
 var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%", offset: 320})
     .setTween(tween3)
-    .addIndicators() // add indicators (requires plugin)
+    //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
 
@@ -125,5 +125,5 @@ var tween4 = TweenMax.to(".interface-features__content-animate", 0.5,
 
 var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: "70%", offset: 100})
     .setTween(tween4)
-    .addIndicators() // add indicators (requires plugin)
+    //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
