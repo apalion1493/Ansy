@@ -27,6 +27,7 @@
     font-size: 36px;
     color: #FFFFFF;
     margin-top: 78px;
+    text-align: center;
 }
 
 textarea {
@@ -252,12 +253,31 @@ textarea {
 
     .write-ToUs__title {
         display: flex;
-        justify-content: center;
-        font-size: 20px;
+        justify-content: flex-start;
+        font-size: 24px;
+        text-align: left;
     }
 
     .write-ToUs__list li p {
         max-width: 100%;
+    }
+
+    #write-ToUs h2 {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 43px;
+    }
+
+    .write-ToUs__block-form p {
+        justify-content: flex-start !important;
+    }
+
+    .btn.blue-btn-form {
+        margin-top: 70px;
     }
 }
 

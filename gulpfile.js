@@ -15,7 +15,7 @@ var gulp 		 = require('gulp'),
     sourcemaps   = require('gulp-sourcemaps');
 
 gulp.task('sass', function() {
-	return gulp.src('app/sass/**/*.scss')
+	return gulp.src('app/sass/common.blocks/common.scss')
 		.pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))

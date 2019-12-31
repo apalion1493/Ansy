@@ -78,4 +78,37 @@
   .design-system-section__block {
     margin-top: 60px;
   }
+
+  .design-system-section__text h1 {
+    word-spacing: normal;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .design-system-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .design-system-section__text h1 {
+    word-spacing: normal;
+  }
+
+  .design-system-section__colors table {
+    position: relative;
+    left: -30px;
+  }
+
+  .design-system-section__colors-title {
+    margin-left: 0;
+  }
+
+  .design-system-section__fonts,
+  .design-system-section__colors {
+    margin-top: 30px;
+  }
+
+  .design-system-section__text span.display-1 {
+    font-size: 32px !important;
+  }
 }

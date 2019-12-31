@@ -100,7 +100,7 @@ if (window.innerWidth > 1200) {
 } else if(window.innerWidth >= 992 && window.innerWidth < 1199.98) {
     tween3 = TweenMax.to(".tablet-images__animate", 0.5, {top: '-300px'});
 } else if(window.innerWidth >= 768 && window.innerWidth < 991.98) {
-    tween3 = TweenMax.to(".tablet-images__animate", 0.5, {top: '-300px'});
+    tween3 = TweenMax.to(".tablet-images__animate", 0.5, {top: '-500px'});
 } else {
     tween3 = TweenMax.to(".tablet-images__animate", 0.5, {top: '-300px'});
 }
@@ -110,14 +110,7 @@ var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%"
     //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
-
-
-
-
-
-
-
-//
+//..........................................................................................................
 
 var tween4 = TweenMax.to(".interface-features__content-animate", 0.5,
     {bottom: 0}
